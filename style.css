@@ -1,0 +1,253 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#75b2ad, #75b2ad);
+    border: 0!important;
+    color: #fff !important;
+    padding: 25px 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none;
+    text-align: center;
+}
+
+.style-two {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #342d70, rgba(0, 0, 0, 0));
+}
+
+.header1 img{
+    width: 180px;
+    margin-top: 100px;
+    float: center;
+}
+
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.header img{
+    
+    width: 120px;
+    float: center;
+    border-radius: 50%;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+.header h1{
+    padding-top: 15px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px 0;
+}
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin:auto;
+    box-shadow: none !important;  
+}
+.input-group-text{
+    width: 100px;
+    color:#75b2ad;
+    border: 0!important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none;
+}
+.features{
+    padding: 40px 0;
+    background-color: orange;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    width: 100%;
+
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    left: 20px;
+    bottom: -50px;
+}
+.feature-img{
+    position: relative;
+}
+.feature-img img{
+    height: 300px;
+}
+.feature-img:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px black;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa{
+    margin-right: 5px;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery-box img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.gallery-box :hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    display: block;
+    color: blueviolet;
+    font-weight: 600;
+    position: relative;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    text-shadow: -2px 2px 2px #000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 20px;
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner{
+    height: 80%;
+    background-image: url(beach_road.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 13%;
+}
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.users-feedback{
+    padding: 100px 0;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 70px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    position: relative;
+    margin: -50px 0 20px 35%;
+}
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+.footer{
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: #fff;
+}
+
+.footer-logo1{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+}
