@@ -1,3 +1,7 @@
 # _**Title not fixed yet, needs to be decided**_
 
-_**Take a View at our project**_ => [NSS_CRCE](https://nss-crce-library.netlify.app/) **OR** https://nss-crce-library.netlify.app/ **OR** https://maheshdbabar9340.github.io/NSS-Library/
+_**Take a View at our project**_ => 
+
+this thing is yet to be uploaded means hosted
+
+so after hosting you will get the link to enjoy the website 😂
